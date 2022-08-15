@@ -24,6 +24,7 @@
 personal products
 
 ## Time
+Starting Date : 05/08/2022
 Total time : ~24h
 
 ## Project details
@@ -45,65 +46,53 @@ Total time : ~24h
 5. Search for employee information by name or employee code
 6. Display payroll of employees throughout the company
 7. Display employee payroll in ascending order
-####
+#### Programming techniques applied
+- Interface
+- The four principles of oop
+- Arraylist 
+#### Difficulties encountered
+- Must be familiar with the Arraylist library
 
 ### Android App
-Check to see if you have Ruby installed (`ruby -v`). If you don't, you can follow the installation instructions provided [here](https://www.ruby-lang.org/en/documentation/installation/).
+#### Function
+- Adding 
+<img width="325" alt="image" src="https://user-images.githubusercontent.com/111257273/184677494-f55e7680-ee76-48ad-9a84-4fa0a9b44575.png">
+added success
+<img width="325" alt="image" src="https://user-images.githubusercontent.com/111257273/184677604-b83f0ebc-74c3-4ad8-95db-6a9e1f703171.png">
 
-Next you'll have to install [Jekyll](https://jekyllrb.com) (a simple `gem install bundler jekyll` should suffice).
+- Removing
 
-```sh
+Click checkbox to removing
 
+<img width="327" alt="image" src="https://user-images.githubusercontent.com/111257273/184677011-609e9753-bf23-4d81-88e5-dabb26c1cd06.png">
+
+successful removed
+
+<img width="335" alt="image" src="https://user-images.githubusercontent.com/111257273/184677122-3f35c6b1-27eb-4f55-adcc-3aa913501263.png">
+
+
+#### Programming techniques applied
+- Adapter
+- ListView
+#### Difficulties encountered
+- not familiar with adapter
+- encountered a bug with the 'Add' button, when adding male gender but the icon still shows female gender
+
+the code encountered a bug
 ```
-
-You'll also need some additional dependencies:
-
-```sh
-
+ boolean gioitinh = true;
+ if(rdo_btNam.isChecked()){
+            gioitinh = true;
+        } else{
+            gioitinh = false;
+        }
+        // Sự kiện thêm
+        bt_Add.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dsNhanVien.add(new NhanVien(txt_ID.getText().toString(),txt_Name.getText().toString(),gioitinh));
+            }
+        });
 ```
-
-## How to use
-
-
-```sh
-
-```
-
-
-```sh
-
-```
-
-
-### Automating the build & upload with rsync
-
-## Customize
-
-### Basics
-
-First thing you want to do is edit a couple of things in `/_config.yml`:
-
-- `title`: The title of your photo stream
-- `email`: Your email address (this line is optional, you can remove it)
-- `author`
-    - `name`: Your name
-    - `email`: Your email address (optional)
-    - `website`: Your website (could be the address of this photo stream)
-- `description`: Description of your photo stream
-- `baseurl`: Should be `""` **⚠️ Do not change unless you know what you're doing**
-- `url`: Where will this photo stream live (example: `https://maxvoltar.photo`)
-- `twitter_username`: Your Twitter username
-- `github_username`: Your Github username
-- `instagram_username`: Your Instagram username
-
-Don't include the `@`-part of your social handles. By default links to your Github and Instagram profiles are hidden. You can uncomment these by going into `/index.html`. There, you can also add links to wherever you want. Just add more `<li>`'s with `class="link"` to the `<ul class="links">` list.
-
-### Advanced
-
-Before publishing your website, Jekyll will resize your photos into 3 different buckets:
-
-- `/photos/large`: These are only shown when a user navigates to a photo page. By default these are resized to a maximum of 2048 wide and 2048 tall. If you wish, you can change these by changing the values in `/_config.yml` (by default they look something like this: `resize_to_limit: [2048, 2048]`).
-- `/photos/thumbnail`: These are used in the grid. Photo Stream will load all thumbnails above the fold, then more as you scroll down; all to save bandwidth. Standard size for these is 640 by 640 (max), but you can also change this if needed.
-- `/photos/tint`: What you see while the page loads its first batch of thumbnails, also used as the background for photo pages. **⚠️ Do not make changes to the tint versions in your config file.**
 
 

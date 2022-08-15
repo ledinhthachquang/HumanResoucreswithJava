@@ -21,7 +21,7 @@
 - Download HumanResourcesApplication.zip then extract and open the folder with Android Studio
 
 ## Role for the projects 
-personal products
+Personal products
 
 ## Time
 Starting Date : 05/08/2022
@@ -75,8 +75,8 @@ successful removed
 - Adapter
 - ListView
 #### Difficulties encountered
-- not familiar with adapter
-- encountered a bug with the 'Add' button, when adding male gender but the icon still shows female gender
+- Not familiar with adapter
+- Encountered a bug with the 'Add' button, when adding male gender but the icon still shows female gender
 
 the code encountered a bug
 ```

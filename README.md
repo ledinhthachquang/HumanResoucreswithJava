@@ -5,31 +5,51 @@
 ---
 
 # Introduction
-## This project is called human resource management. This project consists of 2 parts:
-- ### Designing functions in the form of consoles using oop knowledge 
+## 🆕This project is called human resource management. This project consists of 2 parts:
+- ### Human Resoucres Console : Designing functions in the form of consoles using oop knowledge 
 <img width="584" alt="image" src="https://user-images.githubusercontent.com/111257273/184632793-92546018-e089-4ec2-b295-8e9bf6fa50a2.png">
 
-- ### Designing application interfaces including 2 functions: adding and removing employees.
+- ### HumanResoucresApplication : Android Programming designing app interfaces including 2 functions: adding and removing employees.
 <img width="535" alt="image" src="https://user-images.githubusercontent.com/111257273/184577664-6769688e-6587-4039-b01d-0e46ef8f5bd6.png">
 
+# Purpose
+- Improve oop programming skills
+- get acquainted with android programming
+
+Role for the product : 
 
 # 🚀 How to use
 - Use Android Studio to open file.apk and folder Human Resources Console
 - Download HumanResourcesApplication.zip then extract and open the folder with Android Studio
 
+# Role for the projects 
+personal products
 
-## Features
+# Time
+Total time : ~24h
 
+# Project details
 
-## Why?
+## Human Resoucres Console
+### Function
+1. Display the list of existing employees in the company
 
-## How to install
+2. Show departments in the company
 
-### The easy way
+3. Show employees by department
 
+4. Add new employees to the company: includes 2 types
 
-### The slightly-less-easy-but-still-totally-doable way
+- Add regular staff
 
+- More staff as management (with more positions)
+
+5. Search for employee information by name or employee code
+6. Display payroll of employees throughout the company
+7. Display employee payroll in ascending order
+###
+
+## Android App
 Check to see if you have Ruby installed (`ruby -v`). If you don't, you can follow the installation instructions provided [here](https://www.ruby-lang.org/en/documentation/installation/).
 
 Next you'll have to install [Jekyll](https://jekyllrb.com) (a simple `gem install bundler jekyll` should suffice).

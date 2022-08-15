@@ -18,7 +18,7 @@
 
 ## 🚀 How to use
 - Use Android Studio to open file.apk and folder Human Resources Console
-- Download HumanResourcesApplication.zip then extract and open the folder with Android Studio
+- Download HumanResourcesApplication.rar then extract and open the folder with Android Studio
 
 ## Role for the projects 
 Personal products

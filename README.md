@@ -1,20 +1,21 @@
-# HumanResoucreswithJava
-- 👋 Hi, I’m @ledinhthachquang
-- ---
-- 👋 Hi, I’m @ledinhthachquang
 
+# HumanResoucreswithJava
+
+
+---
 
 # Introduction
 ## This project is called human resource management. This project consists of 2 parts:
-- Designing functions in the form of consoles using oop knowledge 
-- Designing application interfaces including 2 functions: adding and removing employees.
- 
+- ### Designing functions in the form of consoles using oop knowledge 
 <img width="584" alt="image" src="https://user-images.githubusercontent.com/111257273/184632793-92546018-e089-4ec2-b295-8e9bf6fa50a2.png">
+
+- ### Designing application interfaces including 2 functions: adding and removing employees.
 <img width="535" alt="image" src="https://user-images.githubusercontent.com/111257273/184577664-6769688e-6587-4039-b01d-0e46ef8f5bd6.png">
 
 
-# Prerequisites
-
+# 🚀 How to use
+- Use Android Studio to open file.apk and folder Human Resources Console
+- Download HumanResourcesApplication.zip then extract and open the folder with Android Studio
 
 
 ## Features
@@ -88,15 +89,3 @@ Before publishing your website, Jekyll will resize your photos into 3 different 
 - `/photos/tint`: What you see while the page loads its first batch of thumbnails, also used as the background for photo pages. **⚠️ Do not make changes to the tint versions in your config file.**
 
 
-<!---
-ledinhthachquang/ledinhthachquang is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-<h1>Introduction</h1>
-<h2>This project is called human resource management. This project consists of 2 parts:</h2>
-- Designing functions in the form of consoles using oop knowledge 
-- Designing application interfaces including 2 functions: adding and removing employees.
-
- 
-<img width="568"" alt="image" src="https://user-images.githubusercontent.com/111257273/184577816-b730b750-42d7-49dd-b795-6f05e66c1444.png">
-<img width="535" alt="image" src="https://user-images.githubusercontent.com/111257273/184577664-6769688e-6587-4039-b01d-0e46ef8f5bd6.png">
